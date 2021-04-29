@@ -26,7 +26,7 @@ class App extends Component {
       handleChange={e => this.setState( {searchField: e.target.value} )}
       />
         <CardList monsters={filteredMonsters}>
-
+<div>test</div>
         </CardList>
       </div>
     )
